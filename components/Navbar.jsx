@@ -69,22 +69,22 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/'>Home</Link>
+              <h3><Link href='/'>Home</Link></h3>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#about'>About</Link>
+              <h3><Link href='/#about'>About</Link></h3>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#skills'>Skills</Link>
+              <h3><Link href='/#skills'>Skills</Link></h3>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#projects'>Projects</Link>
+              <h3><Link href='/#projects'>Projects</Link></h3>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/resume'>Resume</Link>
+              <h3><Link href='/resume'>Resume</Link></h3>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#contact'>Contact</Link>
+              <h3><Link href='/#contact'>Contact</Link></h3>
             </li>
           </ul>
           {/* Hamburger Icon */}
