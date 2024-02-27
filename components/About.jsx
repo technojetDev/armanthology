@@ -21,7 +21,7 @@ const About = () => {
             Most of my integrations involve investigations, readings, and localization of different contents in the respective locales of the brands that the company manages.
             I'm enjoying my time as a new member of this expanding company, where I participate in team projects, and communicate with clients and project managers all over the world.
             <br> </br>
-            "Software undergoes beta testing shortly before it’s released. Beta is Latin for still doesn’t work." - Unknown
+            Software undergoes beta testing shortly before it’s released. Beta is Latin for still doesn’t work. - Unknown
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
