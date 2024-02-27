@@ -13,13 +13,10 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-           I'm currently employed at Datawords 24/7 PH, a Multi-cultural and International company, as a Digital Specialist I at their Makati City office here in Metro Manila.
+           Test
           </p>
           <p className='py-2 text-gray-600'>
-            As a JR. Digital Specialist, my duties and responsibilities include integrating updates via a content management system (CMS). 
-            It involves investigation of the issues on the websites, activities in the JSONs and scripts, documentation, and reports of bugs, errors, and progress in the tickets. 
-            Most of my integrations involve investigations, readings, and localization of different contents in the respective locales of the brands that the company manages.
-            I'm enjoying my time as a new member of this expanding company, where I participate in team projects, and communicate with clients and project managers all over the world.
+           Test
             <br> </br>
             Software undergoes beta testing shortly before it’s released. Beta is Latin for still doesn’t work. - Unknown
           </p>
