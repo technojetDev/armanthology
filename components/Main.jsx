@@ -44,15 +44,15 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href='https://drive.google.com/file/d/1KpJ3ZPN5d46FnKa1MNMazuTXSgz9DsFi/view?usp=sharing'>
+            <Link href='https://drive.google.com/file/d/1B4aI6pjGt9F2zSq1p-Oh3M66nJneSMqk/view?usp=sharing'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>
             </Link>
           </div>
         </div>
+         <button className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer' role="button" onClick={() => window.location = 'https://drive.google.com/file/d/1B4aI6pjGt9F2zSq1p-Oh3M66nJneSMqk/view?usp=sharing'}>Resume</button>
       </div>
-<button className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer' role="button" onClick={() => window.location = 'https://drive.google.com/file/d/1B4aI6pjGt9F2zSq1p-Oh3M66nJneSMqk/view?usp=sharing'}>Resume</button>
     </div>
   );
 };
