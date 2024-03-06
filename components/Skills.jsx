@@ -16,7 +16,7 @@ import PHP from '../public/assets/skills/php.svg';
 import Adalo from '../public/assets/skills/adalo-logo-black.png';
 import Figma from '../public/assets/skills/figma.svg';
 import Bootstrap from '../public/assets/skills/bootstrap.svg';
-import Wordpress from '../public/assets/skills/Wordpress-Logo.svg';
+import Wordpress from '../public/assets/skills/Wordpress-Logo.svg.png';
 
 const Skills = () => {
   return (
