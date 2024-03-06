@@ -65,6 +65,7 @@ const Navbar = () => {
               className='cursor-pointer'
             />
           </a>
+          <h1>Arman</h1>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
