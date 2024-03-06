@@ -11,6 +11,12 @@ import NextJS from '../public/assets/skills/nextjs.png'
 import AWS from '../public/assets/skills/aws.png';
 
 import SalesForce from '../public/assets/skills/salesforce.svg';
+import SQLServer from '../public/assets/skills/microsoft-sql-server-logo.svg';
+import PHP from '../public/assets/skills/php.svg';
+import Adalo from '../public/assets/skills/adalo-logo-black.png';
+import Figma from '../public/assets/skills/figma.svg';
+import Bootstrap from '../public/assets/skills/bootstrap.svg';
+import Wordpress from '../public/assets/skills/Wordpress-Logo.svg';
 
 const Skills = () => {
   return (
@@ -115,7 +121,7 @@ const Skills = () => {
          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                    <Image src={Html} width="64px" height="64px" alt="/" />
+                    <Image src={SQLServer} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <h3>SQL Server</h3>
@@ -125,7 +131,7 @@ const Skills = () => {
          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                    <Image src={Html} width="64px" height="64px" alt="/" />
+                    <Image src={PHP} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <h3>PHP</h3>
@@ -135,7 +141,7 @@ const Skills = () => {
          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                    <Image src={Html} width="64px" height="64px" alt="/" />
+                    <Image src={Adalo} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <h3>Adalo</h3>
@@ -145,7 +151,7 @@ const Skills = () => {
          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                    <Image src={Html} width="64px" height="64px" alt="/" />
+                    <Image src={Figma} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <h3>Figma</h3>
@@ -155,7 +161,7 @@ const Skills = () => {
          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                    <Image src={Html} width="64px" height="64px" alt="/" />
+                    <Image src={Bootstrap} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <h3>Bootstrap</h3>
@@ -165,7 +171,7 @@ const Skills = () => {
          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                    <Image src={Html} width="64px" height="64px" alt="/" />
+                    <Image src={Wordpress} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <h3>Wordpress</h3>
