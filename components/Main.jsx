@@ -52,7 +52,7 @@ const Main = () => {
           </div>
         </div>
       </div>
- <button className="button-49" role="button" onClick={() => window.location = 'https://drive.google.com/file/d/1B4aI6pjGt9F2zSq1p-Oh3M66nJneSMqk/view?usp=sharing'}>Resume</button>
+ <button className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer' role="button" onClick={() => window.location = 'https://drive.google.com/file/d/1B4aI6pjGt9F2zSq1p-Oh3M66nJneSMqk/view?usp=sharing'}>Resume</button>
 
     </div>
   );
