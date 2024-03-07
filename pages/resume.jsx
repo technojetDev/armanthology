@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import NavLogo from '../public/assets/favicon.ico'
 
 const resume = () => {
   return (
@@ -11,7 +12,13 @@ const resume = () => {
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
         />
-        <link rel='icon' href='../public/assets/favicon.ico' />
+        <Image
+              src={NavLogo}
+              alt='/'
+              width='50'
+              height='50'
+              className='cursor-pointer'
+            />
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
